@@ -1,3 +1,6 @@
+/*     */
+
+
 h1 {
 
 	text-align: center;
@@ -5,16 +8,27 @@ h1 {
 
 }
 
-
-img {
-
-	height: 100px;
-	padding: 10px;
-	margin-left: 10px;
+.ui.image img {
+height: 100px;
+margin-left: 100px;
 }
 
 
-.item {
 
-	margin: 0 10px 10px 10px;
+.ui.medium.image, .ui.medium.images .image, .ui.medium.images img {
+width: 132px;
+font-size: 1rem;
 }
+
+.ui.image img {
+height: 100px;
+padding: 10px;
+margin-left: 15px;
+}
+/* 
+
+.ui.menu:first-child {
+margin-top: -74px;
+}
+
+*/
