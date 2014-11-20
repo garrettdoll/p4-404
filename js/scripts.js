@@ -9,7 +9,7 @@
             volume: 1.0
         });
 
-        $(".loser").on("click", function(){
+        $('button').on("click", function(){
             ion.sound.play("horn");
         });
 

@@ -1,10 +1,22 @@
 /*     */
 
 
+
+html {
+    background: url(../img/wheel.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+
 h1 {
 
 	text-align: center;
-	color: tomato;
+	color: black;
 
 }
 
@@ -25,6 +37,23 @@ height: 100px;
 padding: 10px;
 margin-left: 15px;
 }
+
+
+button {
+
+	margin:1% 0 0 1%;
+	padding: 20px;
+	background: black;
+	text-decoration: none;
+	color: white;
+	border-radius: 10px;
+
+
+}
+
+
+
+
 /* 
 
 .ui.menu:first-child {
