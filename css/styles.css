@@ -39,17 +39,14 @@ margin-left: 15px;
 }
 
 
-button {
+.ui.icon.button.massive {
 
 	margin:1% 0 0 1%;
 	padding: 20px;
-	background: black;
-	text-decoration: none;
-	color: white;
-	border-radius: 10px;
 
 
 }
+
 
 
 
@@ -59,20 +56,38 @@ button {
 
 
 /* Mobile */
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 400px) {
 
 .ui.image {
 
 	width: 100px;
 }
 
-.ui.black.inverted.primary.menu {
+.item {
 
-	width: 100%;
+	display: none;
 }
 
-button {
+
+.ui.icon.button.massive {
+
 	display: none;
+
+
+}
+
+
+html {
+
+background: white;
+
+}
+
+
+
+
+.ui.menu:last-child {
+margin-bottom: 30%;
 }
 
 
@@ -82,18 +97,17 @@ button {
 
 
 /* Tablet */
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 401px) {
+
+	p {
+
+		display: none;
+		text-align: center;
+	}
 
 
 }
 
-/* Desktop */
-@media screen and (min-width: 1140px) {
-
-
-
-
-}
 
 
 
