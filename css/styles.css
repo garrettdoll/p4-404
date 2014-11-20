@@ -54,10 +54,47 @@ button {
 
 
 
-/* 
 
-.ui.menu:first-child {
-margin-top: -74px;
+
+
+
+/* Mobile */
+@media screen and (max-width: 499px) {
+
+.ui.image {
+
+	width: 100px;
 }
 
-*/
+.ui.black.inverted.primary.menu {
+
+	width: 100%;
+}
+
+button {
+	display: none;
+}
+
+
+
+}
+
+
+
+/* Tablet */
+@media screen and (min-width: 500px) {
+
+
+}
+
+/* Desktop */
+@media screen and (min-width: 1140px) {
+
+
+
+
+}
+
+
+
+
